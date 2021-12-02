@@ -1,0 +1,11 @@
+.divHeader {
+    background-color: #060CE9;
+    color: #FFCC00;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+    padding: 5px 5px 5px 5px;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

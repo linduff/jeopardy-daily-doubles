@@ -1,0 +1,80 @@
+<section class="dataOptions" [formGroup]="options">
+    <p class="allSeasons">
+        <mat-checkbox 
+            [disableRipple]="true"
+            [checked]="allSeasons" 
+            (change)="setAllSeasons($event.checked)">
+            All Seasons
+        </mat-checkbox>
+    </p>
+    <p class="allGameTypes">
+        <mat-checkbox 
+            [disableRipple]="true"
+            [checked]="allGameTypes" 
+            (change)="setAllGameTypes($event.checked)">
+            All Game Types
+        </mat-checkbox>
+    </p>
+    <div class="column">
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season01">Season 1</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season02">Season 2</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season03">Season 3</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season04">Season 4</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season05">Season 5</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season06">Season 6</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season07">Season 7</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season08">Season 8</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season09">Season 9</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season10">Season 10</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season11">Season 11</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season12">Season 12</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season13">Season 13</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season14">Season 14</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season15">Season 15</mat-checkbox></p>
+    </div>
+    <div class="column">
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season16">Season 16</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season17">Season 17</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season18">Season 18</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season19">Season 19</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season20">Season 20</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season21">Season 21</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season22">Season 22</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season23">Season 23</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season24">Season 24</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season25">Season 25</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season26">Season 26</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season27">Season 27</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season28">Season 28</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season29">Season 29</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season30">Season 30</mat-checkbox></p>
+    </div>
+    <div class="column">
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season31">Season 31</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season32">Season 32</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season33">Season 33</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season34">Season 34</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season35">Season 35</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season36">Season 36</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season37">Season 37</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="season38">Season 38</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="goattournament">GOAT Tournament</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="superjeopardy">Super Jeopardy</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllSeasons()" formControlName="trebekpilots">Trebek Pilots</mat-checkbox></p>
+    </div>
+    <div class="gameTypeColumn">
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="regular">Regular Season</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="college">College Championship</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="power">Power Players</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="senior">Senior Tournament</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="teacher">Teacher's Tournament</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="teen">Teen Tournament</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" (change)="checkAllGameTypes()" formControlName="ToC">Tournament of Champions</mat-checkbox></p>
+    </div>
+    <div class="roundColumn">
+        <p><mat-checkbox [disableRipple]="true" formControlName="jeopardy">Jeopardy Round</mat-checkbox></p>
+        <p><mat-checkbox [disableRipple]="true" formControlName="doubleJeopardy">Double Jeopardy Round</mat-checkbox></p>
+    </div>
+    
+</section>
+
