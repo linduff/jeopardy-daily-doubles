@@ -20,7 +20,7 @@ export class FiltersComponent {
     'season31','season32','season33','season34','season35','season36','season37','season38', 
     'goattournament','superjeopardy','trebekpilots'
   ]
-  gameTypeList = ['regular','college','power','senior','teacher','teen','ToC']
+  gameTypeList = ['regular','college','power','senior','teacher','teen','ToC','goattournament','superjeopardy']
 
   allSeasonsChecked = [
   {
@@ -120,6 +120,8 @@ export class FiltersComponent {
       teacher:  false,
       teen:     false,
       ToC:      false,
+      goattournament: false,
+      superjeopardy: false,
     },
     {
       regular:  true,
@@ -129,6 +131,8 @@ export class FiltersComponent {
       teacher:  true,
       teen:     true,
       ToC:      true,
+      goattournament: true,
+      superjeopardy: true,
     }
   ]
 
@@ -223,5 +227,10 @@ export class FiltersComponent {
         this.allGameTypes = false
       }
     })
+  }
+
+  checkSuperGOAT() {
+    this.checkAllSeasons()
+    this.checkAllGameTypes()
   }
 }

@@ -1,10 +1,10 @@
 .dataOptions {
-    margin: 12px 0;
+    padding-left: 350px;
 }
 
 .column {
     float: left;
-    width: 140px;
+    width: 160px;
 }
 
 .gameTypeColumn {
